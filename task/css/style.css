@@ -4,7 +4,8 @@
 :hover{
     transition: all 0.5s ease;
 }
-a:hover {
+div a:hover {
+    
     text-decoration: none;
     transition: all 0.5s ease;
 }
@@ -15,6 +16,7 @@ a:hover {
 }
 
 #carousel {
+    position: relative;
     overflow: hidden;
     height: 40rem;
     width: 100%;
@@ -36,8 +38,12 @@ a:hover {
 }
 
 #navbar_style {
-    z-index: 2;
+    
+    z-index: 99;
     background-color: rgba(0, 0, 0, 0.0);
+}
+.navbar_position{
+  
 }
 
 .navbar_border {
@@ -52,6 +58,7 @@ a:hover {
 }
 
 #navbar_style a {
+    
     color: #fff;
 }
 
@@ -59,7 +66,7 @@ a:hover {
     padding-left: 1rem;
 }
 
-.fab:hover {
+.top_ico:hover {
     transition: all 0.5s ease;
     color: #fd5c63;
 }
@@ -362,9 +369,108 @@ div .carousel_img_contain {
     line-height: 1.8em;
 }
 .footer {
+    position: relative;
+    top: -104px;
     padding: 4em 0;
     background: #FFF;
 }
+.footer_body div h4{
+    color: #383838;
+    font-size: 2em;
+    margin: 0;
+}
+.foot_adress p{
+    margin: 0;
+    font-size: 0.875em;
+    color: #BBBBBB;
+    line-height: 1.8em;
+}
+.foot_adress p span{
+    display: block;
+}
+.foot_adress p span a{
+   color: #BBBBBB;
+}
+
+.foot_adress p span a:hover{
+  color: #fd5c63;
+}
+.footer_item_body {
+    margin: 1em 0 0 0;
+}
+.navigation_nav ul{
+    padding: 0;
+    margin: 0;
+}
+.navigation_nav ul li {
+    display: block;
+}
+.navigation_nav ul li a{
+    font-size: 0.875em;
+    color: #BBBBBB;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+.social_ico ul{
+      padding: 0;
+      margin: 0;
+}
+.social_ico ul li{
+    display: inline;
+}
+.social_ico ul li a {
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: #383838;
+  line-height: 40px;
+  color: #FFF;
+  border-radius: 50%; 
+  transition: 0.5s all;
+}
+.social_ico ul li a:hover{
+    background: #F44336;
+}
+#news_email{
+    background: #fff;
+    box-shadow: none !important;
+    padding: 10px 10px;
+    color: #BBBBBB;
+    font-size: 0.875em;
+    width: 100% !important;
+    font-weight: 400;
+    border: 1px solid #BBBBBB;
+    margin: 0 0 1em 0;
+}
+.newsletter_body form input[type="submit"]{
+        border: solid 2px #383838;
+        color: #383838;
+        font-size: 0.875em;
+        padding: 0.5em 2em;
+        text-decoration: none;
+        background: none;
+        border-radius: 5px;
+}
+.newsletter_body form input[type="submit"]:hover{
+        color: #fd5c63;
+        border: solid 2px #fd5c63;
+}
+.copyright{
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+.copyright p{
+    margin: 0;
+    font-size: 0.875em;
+    color: #BBBBBB;
+}
+.copyright p a{
+    color: #BBBBBB;
+}
+
+
 
 /*********小屏设备样式********************************************************************************************/
 @media only screen and (max-width: 575px) {
