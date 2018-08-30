@@ -361,6 +361,11 @@ div .carousel_img_contain {
     color: #BBBBBB;
     line-height: 1.8em;
 }
+.footer {
+    padding: 4em 0;
+    background: #FFF;
+}
+
 /*********小屏设备样式********************************************************************************************/
 @media only screen and (max-width: 575px) {
     .mobile_nav {
@@ -428,10 +433,19 @@ div .carousel_img_contain {
     .offer {
         padding: 2rem 0;
     }
+
+    .news{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    } 
+    .card{
+        margin-top: 1rem;
+    }
 }
 
+
 /*****************************/
-/***************桌面设备**************/
+/***************桌面设备**********************************************************************************************/
 @media only screen and (min-width: 992px) {
     .circle_img {
         font-family: 'Pacifico', cursive;
