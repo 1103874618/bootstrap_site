@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 
 	var num = $(".circle_img");
-	
+	var member = $(".member");
 
 	num.each(function () { 
 		 $(this).mouseenter(function () {
@@ -22,6 +22,14 @@ $(document).ready(function(){
 		speed: 0.2
 	});
 	
+	member.each(function () {
+		$(this).mouseenter(function(){
+			$("#" + $(this).attr("id") + " " + ".member_info").addClass("member_info_hover");
+		});
+		$(this).mouseleave(function () {
+			$("#" + $(this).attr("id") + " " + ".member_info").removeClass("member_info_hover");
+		});
+	});
 	
 });
 
@@ -39,7 +47,8 @@ $("div[class='carousel slide']").mouseleave(function(){
 });
 
 (function smooth() {
-	$("body").smoothScroll();
+	
+	$().smoothScroll();
 })();
 
 

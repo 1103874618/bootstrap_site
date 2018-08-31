@@ -130,6 +130,44 @@
 .team_member img{
     width: 100%;
 }
+.member_info{
+    z-index: 10;
+    background: rgba(47, 47, 47, 0.42);
+    padding: 2em;
+    position: absolute;
+    border: solid 1px #FFF;
+    left: 15%;
+    bottom: -80%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ;
+    color: #fff;
+    
+}
+.member_info h3{
+    font-size: 1.5rem;
+}
+
+.member_info_hover{
+    z-index: 10;
+    transform: translateY(-228px);
+    
+}
+.member_info li{
+    display: inline-block;
+}
+.member_info a{
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background:#fff;
+    line-height: 40px;
+    color: #383838;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
 
 
 
