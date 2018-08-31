@@ -131,6 +131,7 @@
     width: 100%;
 }
 .member_info{
+    overflow: hidden;
     z-index: 10;
     background: rgba(47, 47, 47, 0.42);
     padding: 2em;
@@ -145,6 +146,13 @@
     color: #fff;
     
 }
+#member_1,
+#member_2,
+#member_3,
+#member_4 {
+    overflow: hidden;
+}
+
 .member_info h3{
     font-size: 1.5rem;
 }
@@ -168,38 +176,10 @@
     border-radius: 50%;
     transition: 0.5s all;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.member_info a:hover{
+    background:#fd5c63;
+    color: #fff;
+}
 
 
 
@@ -222,7 +202,37 @@
 
 /*********小屏设备样式****************************************************************************/
 @media only screen and (max-width: 575px) {
+  div .member_info {
+      overflow: hidden;
+      z-index: 10;
+      background: rgba(47, 47, 47, 0.42);
+      padding: 2em;
+      position: absolute;
+      border: solid 1px #FFF;
+      
+      bottom: -90%;
+      text-align: center;
+      width: 150px;
+      height: 150px;
+      transition: all 0.5s;
+      color: #fff;
 
+      
+  }
+  .member{
+      margin-top: 1rem;
+  }
+  .member_info h3{
+    font-size: 1rem;
+  }
+  .member_info .row{
+      position: relative;
+      left: -1rem;
+  }
+  .member_info_hover {
+      z-index: 10;
+      transform: translateY(-114%);
+  }
 }
 
 
