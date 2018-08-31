@@ -30,7 +30,7 @@ div a:hover {
 .carousel-item img {
     width: 100%;
     overflow: hidden;
-    /*min-height: 25rem;*/
+    
 }
 
 .top_bar_text {
@@ -505,6 +505,13 @@ div .carousel_img_contain {
 
     .carousel_img_contain_2 {
         background: url("../image/top_img2.jpg") cover;
+    }
+    .carousel-caption{
+      top: 1rem;
+      bottom: 0;
+    }
+    .carousel_circle{
+        
     }
 
     .circle_img {
