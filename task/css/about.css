@@ -1,0 +1,198 @@
+.all_text{
+    background: url("../image/top_img2.jpg") repeat-y ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar_position{
+    position: relative;
+    top: 0;
+}
+.card-img-left img{
+  width: 100%;
+}
+.about_us {
+    margin-top: 2rem;
+    padding: 4em 0;
+    background: #DCEDF9;
+}
+.about_tittle h2{
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    color: #383838;
+    font-family: 'Pacifico',cursive;
+}
+.about_tittle p{
+    text-align: center;
+    margin: 1em 0 0 0;
+    font-size: .875em;
+    color: #383838;
+}
+.about_card {
+    margin: 4em 0 0 0;
+    background: #FFF;
+    padding: 1em;
+}
+.card_sytle{
+    border:none;
+}
+.card-body h3{
+    color: #fd5c63;
+    font-size: 2em;
+    margin: 0;
+}
+.card-body{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.about_black_text {
+    color: #383838;
+    font-size: 0.875em;
+    margin: 1em 0;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 1.8em;
+}
+.about_grey_text{
+    margin: 1em 0 0 0;
+    font-size: 0.875em;
+    color: #BBBBBB;
+    line-height: 1.8em;
+}
+.different{
+    position: relative;
+    
+   
+    color: #fff;
+    padding: 4em 0;
+}
+.diff_tittle h3{
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    color: #FFF;
+    font-family: 'Pacifico',cursive;
+}
+.diff_tittle p{
+    text-align: center;
+    margin: 1em 0 0 0;
+    font-size: .875em;
+    color: #FFF;
+}
+.diff_text p{
+    text-align: center;
+    margin: 3em auto 0;
+    font-size: .875em;
+    color: #FFF;
+    width: 73%;
+    line-height: 1.8em;
+}
+.diff_btn a{
+  border: solid 2px #FFFFFF;
+  color: #FFFFFF;
+  font-size: .875em;
+  padding: .5em 2em;
+  text-decoration: none;
+  background: none;
+  border-radius: 5px;
+}
+.diff_btn a:hover{
+    border: solid 2px #FD5C63;
+    color: #FD5C63;
+}
+.diff_btn{
+    margin: 3em 0 0 0;
+    text-align: center;
+}
+
+.team{
+    padding: 4em 0;
+    background: #DCEDF9;
+}
+.team_tittle h3{
+    color: #383838;
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    
+    font-family: 'Pacifico',cursive;
+}
+.team_tittle p{
+     text-align: center;
+     margin: 1em 0 0 0;
+     font-size: .875em;
+
+}
+.team_member{
+    overflow: hidden;
+    margin: 4em 0 0 0;
+}
+.team_member img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********小屏设备样式****************************************************************************/
+@media only screen and (max-width: 575px) {
+
+}
+
+
+
+
+
+
+/*************中型设备******************************************************************************/
+@media only screen and (max-width: 1100px) and (min-width: 576px) {
+    
+}

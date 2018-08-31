@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	
 	
+
+
 	var num = $(".circle_img");
 	
 
@@ -16,6 +18,9 @@ $(document).ready(function(){
 		 
 	 });
 		
+	$('.jarallax').jarallax({
+		speed: 0.2
+	});
 	
 	
 });
@@ -33,6 +38,9 @@ $("div[class='carousel slide']").mouseleave(function(){
 	$(".carousel_arrow").css("opacity","0");
 });
 
+(function smooth() {
+	$("body").smoothScroll();
+})();
 
 
 
