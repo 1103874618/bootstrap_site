@@ -7,6 +7,9 @@
     position: relative;
     top: 0;
 }
+.navbar_position_2{
+    margin-bottom: 2rem;
+}
 .card-img-left img{
   width: 100%;
 }

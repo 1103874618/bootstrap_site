@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	
-
+	
 
 	var num = $(".circle_img");
 	var member = $(".member");
