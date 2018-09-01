@@ -242,5 +242,35 @@
 
 /*************中型设备******************************************************************************/
 @media only screen and (max-width: 1100px) and (min-width: 576px) {
-    
+    div .member_info {
+        overflow: hidden;
+        z-index: 10;
+        background: rgba(47, 47, 47, 0.42);
+        padding: 2em;
+        position: absolute;
+        border: solid 1px #FFF;
+        bottom: -90%;
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        transition: all 0.5s;
+        color: #fff;
+    }
+
+    .member {
+        margin-top: 1rem;
+    }
+
+   
+
+    .member_info .row {
+        position: relative;
+        
+    }
+
+    .member_info_hover {
+        z-index: 10;
+        transform: translateY(-130%);
+
+    }
 }
