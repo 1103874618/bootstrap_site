@@ -46,10 +46,47 @@ $("div[class='carousel slide']").mouseleave(function(){
 	$(".carousel_arrow").css("opacity","0");
 });
 
-(function smooth() {
+
+
+(function look() {
+	$(".pic_img").mouseenter(function () { 
+
+		$("[id ="+$(this).attr("id")+"]"+"+div").addClass("look_btn_hover");
+	});
 	
-	$().smoothScroll();
+	$(".pic_img").mouseleave(function () { 
+	
+
+		$("[id =" + $(this).attr("id") + "]" + "+div").removeClass("look_btn_hover");
+	});
+
+	$(".look_btn").mouseenter(function () { 
+		$(this).addClass("look_btn_hover");
+	});
+
+	$(".look_btn").mouseleave(function () { 
+		$(this).removeClass("look_btn_hover");
+	});
+
 })();
+
+$(function () {
+	
+	
+	var $lig = $(".look_btn").simpleLightbox();
+
+	
+ });
+
+
+
+
+
+
+
+
+		
+	
 
 
 
