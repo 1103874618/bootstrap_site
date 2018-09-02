@@ -1,3 +1,7 @@
+body{
+  padding-right: 0 !important;
+}
+
 .gallery h3{
   text-align: center;
   margin: 0;
@@ -46,7 +50,8 @@
   border: 2px solid #DCEDF9;
 }
 
-.look_btn{
+a.look_btn ,.look_btn_2{
+  display: block;
   width: 40%;
   height: 40%;
   position: absolute;
@@ -61,16 +66,23 @@
   transition: 0.3s all;
   
 }
-.look_btn_hover{
+.look_btn img{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.look_btn_hover,
+.look_btn_2_hover{
+   display: block;
    border: 2px solid #fff;
    background: rgba(56, 56, 56, 0.4);
    opacity: 1; 
-  z-index: 10;
+   z-index: 10;
   
   transform:scale(2,2);
   
 }
-.look_btn i{
+.look_btn i,.look_btn_2 i{
   display: block;
   color: #fff;
   background: none;
@@ -83,9 +95,7 @@
   bottom: 0;
   margin: auto;
 }
-.modal-open{
-  padding-right: 0 !important;
-}
+
 
 
 

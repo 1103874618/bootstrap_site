@@ -49,22 +49,24 @@ $("div[class='carousel slide']").mouseleave(function(){
 
 
 (function look() {
+	
+	
 	$(".pic_img").mouseenter(function () { 
-
-		$("[id ="+$(this).attr("id")+"]"+"+div").addClass("look_btn_hover");
+	
+		$("[id =" + $(this).attr("id") + "]").next(".look_btn").next("div").addClass("look_btn_2_hover");
 	});
 	
 	$(".pic_img").mouseleave(function () { 
 	
 
-		$("[id =" + $(this).attr("id") + "]" + "+div").removeClass("look_btn_hover");
+		$("[id =" + $(this).attr("id") + "]").next(".look_btn").next("div").removeClass("look_btn_2_hover");
 	});
 
-	$(".look_btn").mouseenter(function () { 
+	$(".look_btn_2").mouseenter(function () { 
 		$(this).addClass("look_btn_hover");
 	});
 
-	$(".look_btn").mouseleave(function () { 
+	$(".look_btn_2").mouseleave(function () { 
 		$(this).removeClass("look_btn_hover");
 	});
 
@@ -74,6 +76,12 @@ $(function () {
 	
 	
 	var $lig = $(".look_btn").simpleLightbox();
+
+	$(".look_btn_2").on("click", function () {
+		
+		$(this).prev("a").trigger("click");
+		
+	});
 
 	
  });
