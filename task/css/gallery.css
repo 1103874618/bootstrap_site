@@ -1,5 +1,5 @@
 body{
-  padding-right: 0 !important;
+ padding-right: 0 !important; 
 }
 
 .gallery h3{
@@ -145,6 +145,9 @@ a.look_btn ,.look_btn_2{
   
   .pic_img_sm{
     height: 377px;
+  }
+  .pic_img{
+    margin-top: 10px;
   }
 }
 
