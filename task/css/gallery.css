@@ -44,6 +44,22 @@ body{
   background: url("../image/gallery/g4.jpg") no-repeat;
   background-size: cover;
 }
+.img_7{
+  background: url("../image/gallery/g7.jpg") no-repeat;
+  background-size: cover;
+}
+.img_5{
+  background: url("../image/gallery/g5.jpg") no-repeat;
+  background-size: cover;
+}
+.img_6{
+  background: url("../image/gallery/g6.jpg") no-repeat;
+  background-size: cover;
+}
+.img_8{
+   background: url("../image/gallery/g8.jpg") no-repeat;
+   background-size: cover;
+}
 
 .pic_img{
   height:226px ;
