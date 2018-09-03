@@ -1,5 +1,36 @@
 $(document).ready(function(){
-	console.log($("img[class='d-block w-100 img-fluid']"));
+	
+	
+	
+
+	var num = $(".circle_img");
+	var member = $(".member");
+
+	num.each(function () { 
+		 $(this).mouseenter(function () {
+			 
+			 $("#"+$(this).attr("id") +" "+ ".circle_hover_border").addClass("circle_hover_border_hover");
+		 });
+
+		$(this).mouseleave(function () {
+			$("#" + $(this).attr("id") + " "+ ".circle_hover_border").removeClass("circle_hover_border_hover");
+		 });
+		 
+	 });
+		
+	$('.jarallax').jarallax({
+		speed: 0.2
+	});
+	
+	member.each(function () {
+		$(this).mouseenter(function(){
+			$("#" + $(this).attr("id") + " " + ".member_info").addClass("member_info_hover");
+		});
+		$(this).mouseleave(function () {
+			$("#" + $(this).attr("id") + " " + ".member_info").removeClass("member_info_hover");
+		});
+	});
+	
 });
 
 $("div[class='carousel slide']").mouseenter(function(){
@@ -15,7 +46,64 @@ $("div[class='carousel slide']").mouseleave(function(){
 	$(".carousel_arrow").css("opacity","0");
 });
 
-/*$(".carousel_arrow").click(function () {
 
-});*/
+
+(function look() {
+	
+	
+	$(".pic_img").mouseenter(function () { 
+	
+		$("[id =" + $(this).attr("id") + "]").next(".look_btn").next("div").addClass("look_btn_2_hover");
+	});
+	
+	$(".pic_img").mouseleave(function () { 
+	
+
+		$("[id =" + $(this).attr("id") + "]").next(".look_btn").next("div").removeClass("look_btn_2_hover");
+	});
+
+	$(".look_btn_2").mouseenter(function () { 
+		$(this).addClass("look_btn_hover");
+	});
+
+	$(".look_btn_2").mouseleave(function () { 
+		$(this).removeClass("look_btn_hover");
+	});
+
+})();
+
+$(function () {
+	
+	
+	var $lig = $(".look_btn").simpleLightbox();
+
+	$(".look_btn_2").on("click", function () {
+		
+		$(this).prev("a").trigger("click");
+		
+	});
+
+	
+ });
+
+ function initMap() {
+	 var kings = { lat: 36.5462311, lng: -82.5722549}
+	 
+	 	var map = new google.maps.Map(
+			 document.getElementById('map'), { zoom: 4, center: kings });
+	 	var marker = new google.maps.Marker({ position: kings, map: map });
+	 
+ }
+
+
+
+
+
+
+
+
+		
+	
+
+
 

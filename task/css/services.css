@@ -1,0 +1,162 @@
+.services{
+    margin-top: 2rem;
+  padding: 4em 0;
+  background: #DCEDF9;r
+}
+.services_tittle h2{
+        text-align: center;
+        margin: 0;
+        font-size: 3em;
+        color: #383838;
+        font-family: 'Pacifico',cursive;
+}
+.services_tittle p{
+    text-align: center;
+    margin: 1em 0 0 0;
+    font-size: .875em;
+    color: #383838;
+}
+.services_tittle{
+    margin-bottom: 4rem ;
+}
+.row h4{
+        color: #383838;
+        font-size: 2rem;
+        margin: 0;
+        text-decoration: none;
+        line-height: 1.8rem;
+}
+.services .row p {
+    margin: 1rem 0 0 0;
+    font-size: .875rem;
+    color: #383838;
+    line-height: 1.8rem;
+}
+.services .row:nth-child(3) {
+    margin: 4rem 0px;
+}
+.features {
+    color: #fff;
+    background: url(../images/3.jpg) no-repeat 0px 0px;
+    padding: 4rem 0;
+}
+.feature_tittle h3{
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    color: #FFF;
+    font-family: 'Pacifico', cursive;
+}
+.feature_tittle p{
+    text-align: center;
+    margin: 1rem 0 0 0;
+    font-size: .875rem;
+    color: #FFF;
+}
+.feature_body p{
+    text-align: center;
+    margin: 3rem auto 0;
+    font-size: .875rem;
+    color: #FFF;
+    width: 73%;
+    line-height: 1.8rem;
+}
+.accommodation{
+    padding: 4rem 0;
+    background: #DCEDF9;
+}
+.accommodation_tittle h3{
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    color: #383838;
+    font-family: 'Pacifico',cursive;
+}
+.accommodation_tittle p{
+    color: #383838;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    font-size: .875rem;
+
+}
+.accommodation_body {
+    margin-top: 4rem;
+}
+.accommodation_body img{
+    width: 100%;
+}
+.card {
+    border: none
+}
+.card-body h5{
+    margin: 0;
+    font-size: .875em;
+    color: #383838;
+    line-height: 1.8em;
+}
+.card-body p{
+    margin: 1em 0 0 0;
+    font-size: .875em;
+    color: #BBBBBB;
+    line-height: 1.8em;
+}
+.card-body {
+        padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********小屏设备样式****************************************************************************/
+@media only screen and (max-width: 575px) {
+
+}
+
+/*************中型设备******************************************************************************/
+@media only screen and (max-width: 1100px) and (min-width: 576px) {
+   
+}

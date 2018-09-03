@@ -1,0 +1,138 @@
+.contact{
+  padding: 4em 0;
+  background: #DCEDF9;
+}
+
+.contact h3{
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  color: #383838;
+  font-family: 'Pacifico',
+  cursive;
+}
+.contact p{
+  text-align: center;
+  margin: 1em 0 0 0;
+  font-size: .875em;
+  color: #383838;
+}
+
+.con_body {
+  padding: 2em 1em;
+  background: #FFFFFF;
+  margin: 4em 0 0 0;
+}
+.con_body h4{
+      color: #383838;
+      font-size: 2em;
+      margin: 0;
+}
+
+.con_body p{
+  text-align: left;
+  color: #BBBBBB;
+  margin: 2em 0;
+  font-size: .875em;
+  line-height: 1.8em;
+}
+.contact_way{
+    margin: 3em 0 0 0;
+}
+.contact_way ul{
+  padding: 0;
+  margin: 0;
+}
+.contact_way ul li{
+  display: block;
+  margin: 1em 0;
+}
+.contact_way i{
+  height: 40px;
+  width: 40px;
+  background: #F44336;
+  line-height: 40px;
+  text-align: center;
+  color: #FFF;
+  border-radius: 50%;
+  transition: 0.5s all;
+}
+.contact_way span {
+      color: #BBBBBB;
+      font-size: .875em;
+      margin-left: 1em;
+}
+.contact_way span a{
+  color: #BBBBBB;
+  text-decoration: none;
+  
+}
+.send_way{
+  margin: 2em 0 0 0;
+}
+
+.send_way form input{
+  display: inline-block;
+  background: none;
+  border: 1.5px solid #BBBBBB;
+  width: 100%;
+  outline: none;
+  padding: 10px 15px 10px 15px;
+  font-size: .9em;
+  color: #BBBBBB;
+  margin-bottom: 1.5em;
+}
+.send_way textarea{
+  background: none;
+  border: 1.5px solid #BBBBBB;
+  width: 100%;
+  display: block;
+  height: 150px;
+  outline: none;
+  font-size: 0.9em;
+  color: #BBBBBB;
+  resize: none;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 1em;
+}
+.send_way form button{
+  border: solid 2px #383838;
+  color: #383838;
+  font-size: .875em;
+  padding: .5em 2em;
+  text-decoration: none;
+  background: none;
+  border-radius: 5px;
+}
+.send_way form button:hover{
+      color: #fd5c63;
+      border: solid 2px #fd5c63;
+      transition: 0.5s all;
+}
+
+.contact_map {
+  padding: 2em;
+  background: #FFFFFF;
+  margin: 2em 0 0 0;
+}
+
+.contact_map h4{
+  color: #383838;
+  font-size: 2em;
+  margin: 0 0 1em 0;
+}
+
+#map{
+  min-height: 300px;
+  width: 100%;
+}
+
+
+
+/*********小屏设备样式****************************************************************************/
+@media only screen and (max-width: 575px) {
+
+}
+
+/*************中型设备******************************************************************************/
+@media only screen and (max-width: 1100px) and (min-width: 576px) {}
