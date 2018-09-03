@@ -86,6 +86,15 @@ $(function () {
 	
  });
 
+ function initMap() {
+	 var kings = { lat: 36.5462311, lng: -82.5722549}
+	 
+	 	var map = new google.maps.Map(
+			 document.getElementById('map'), { zoom: 4, center: kings });
+	 	var marker = new google.maps.Marker({ position: kings, map: map });
+	 
+ }
+
 
 
 
